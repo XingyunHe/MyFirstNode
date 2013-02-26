@@ -48,7 +48,7 @@ $fh.ready(function() {
       },
       function(err,msg) {
         document.getElementById('cloudConfig').innerHTML = "<p>ERROR: " + JSON.stringify(msg.error) + "</p>";
-        //alert('An error occured: ' + code + ' : ' + errorprops);
+        alert("Hello\nHow are you?");
       }
     );
   };
