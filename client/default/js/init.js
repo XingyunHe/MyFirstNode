@@ -42,7 +42,7 @@ $fh.ready(function() {
     // See: http://docs.feedhenry.com/wiki/Actions
     $fh.act(
       {
-        act:'myFunction',
+        act:'errorFunction',
         req: {
           num: rand
         }
