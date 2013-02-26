@@ -6,3 +6,9 @@ exports.myFunction = function(params, callback) {
   callback(undefined, {result: num});
 };
 
+exports.errorFunction = function(params, callback) {
+  var num = params.num;
+ 
+  return callback({err: 'Num too large'}, {result: num});
+ 
+};
